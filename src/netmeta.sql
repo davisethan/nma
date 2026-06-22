@@ -30,4 +30,4 @@ SELECT
     STDDEV_SAMP(diff) / SQRT(COUNT(*)) AS se
 FROM paired
 GROUP BY dataset, pipeline_a, pipeline_b
-ORDER BY dataset, pipeline_a, pipeline_b
+ORDER BY study, treat1, treat2

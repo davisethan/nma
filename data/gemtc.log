@@ -1,0 +1,28 @@
+$Description
+[1] "MTC dataset: Network"
+
+$`Studies per treatment`
+CSP_LDA     MDM  TS_SVM 
+      5       5       5 
+
+$`Number of n-arm studies`
+3-arm 
+    5 
+
+$`Studies per treatment comparison`
+       t1     t2 nr
+1 CSP_LDA    MDM  5
+2 CSP_LDA TS_SVM  5
+3     MDM TS_SVM  5
+
+
+[1] 1.000805
+
+ CSP_LDA      MDM   TS_SVM 
+0.666600 0.022325 0.811075 
+
+Mean Difference (95% CrI)
+
+           CSP_LDA            -0.06889 (-0.1286, 0.002509)   0.01061 (-0.05531, 0.07567) 
+ 0.06889 (-0.002509, 0.1286)               MDM               0.07928 (0.008909, 0.1383)  
+-0.01061 (-0.07567, 0.05531)  -0.07928 (-0.1383, -0.008909)            TS_SVM            
