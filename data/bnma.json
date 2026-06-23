@@ -1,0 +1,65 @@
+{
+  "sucra": {
+    "CSP_LDA": 0.6673,
+    "MDM": 0.0204,
+    "TS_SVM": 0.8122
+  },
+  "convergence": {
+    "rhat_max": 1.0001,
+    "ess_bulk_min": 26580.7673,
+    "ess_tail_min": 30390.6732
+  },
+  "league": {
+    "md": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": -0.069,
+        "TS_SVM": 0.0103
+      },
+      "MDM": {
+        "CSP_LDA": 0.069,
+        "MDM": null,
+        "TS_SVM": 0.0795
+      },
+      "TS_SVM": {
+        "CSP_LDA": -0.0103,
+        "MDM": -0.0795,
+        "TS_SVM": null
+      }
+    },
+    "lower": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": -0.1289,
+        "TS_SVM": -0.0553
+      },
+      "MDM": {
+        "CSP_LDA": -0.0002,
+        "MDM": null,
+        "TS_SVM": 0.0089
+      },
+      "TS_SVM": {
+        "CSP_LDA": -0.0754,
+        "MDM": -0.1377,
+        "TS_SVM": null
+      }
+    },
+    "upper": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.0002,
+        "TS_SVM": 0.0754
+      },
+      "MDM": {
+        "CSP_LDA": 0.1289,
+        "MDM": null,
+        "TS_SVM": 0.1377
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.0553,
+        "MDM": -0.0089,
+        "TS_SVM": null
+      }
+    }
+  }
+}

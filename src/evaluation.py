@@ -1,3 +1,4 @@
+import json
 from os import getenv
 from pathlib import Path
 
@@ -13,6 +14,8 @@ from pyriemann.tangentspace import TangentSpace
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
 from sklearn.pipeline import make_pipeline
 from sklearn.svm import SVC
+
+import moabbr
 
 load_dotenv()
 data_path = Path(getenv("DATA_PATH"))
@@ -45,4 +48,11 @@ pipelines = {
 }
 
 results = evaluation.process(pipelines)
-results.to_csv(data_path / "results.csv", index=False)
+nma = moabbr.nma(results)
+bnma = moabbr.bnma(results)
+
+with open(data_path / "nma.json", "w") as f:
+    json.dump(nma, f, indent=2)
+
+with open(data_path / "bnma.json", "w") as f:
+    json.dump(bnma, f, indent=2)

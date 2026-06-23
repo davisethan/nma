@@ -10,7 +10,6 @@ decorator==5.3.1
 diff_cover==10.3.0
 docstring-inheritance==3.0.0
 dotenv==0.9.9
-duckdb==1.5.4
 edfio==0.4.13
 EDFlib-Python==1.0.8
 filelock==3.29.4
@@ -55,7 +54,6 @@ scikit-learn==1.9.0
 scipy==1.17.1
 seaborn==0.13.2
 six==1.17.0
-sqlfluff==4.2.2
 tblib==3.2.2
 threadpoolctl==3.6.0
 tqdm==4.68.3
