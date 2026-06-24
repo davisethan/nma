@@ -1,148 +1,8 @@
 {
-  "input": [
-    {
-      "study": "Lee2019-MI",
-      "treat1": "CSP_LDA",
-      "treat2": "TS_SVM",
-      "md": -0.0628,
-      "se": 0.0143,
-      "se_adj": 0.02
-    },
-    {
-      "study": "BNCI2014-004",
-      "treat1": "CSP_LDA",
-      "treat2": "MDM",
-      "md": 0.0045,
-      "se": 0.0032,
-      "se_adj": 0.0037
-    },
-    {
-      "study": "BNCI2014-004",
-      "treat1": "MDM",
-      "treat2": "TS_SVM",
-      "md": 0.0061,
-      "se": 0.007,
-      "se_adj": 0.005
-    },
-    {
-      "study": "BNCI2014-004",
-      "treat1": "CSP_LDA",
-      "treat2": "TS_SVM",
-      "md": 0.0106,
-      "se": 0.0091,
-      "se_adj": 0.0096
-    },
-    {
-      "study": "BNCI2014-001",
-      "treat1": "CSP_LDA",
-      "treat2": "TS_SVM",
-      "md": -0.0102,
-      "se": 0.0098,
-      "se_adj": 0.0107
-    },
-    {
-      "study": "PhysionetMotorImagery",
-      "treat1": "CSP_LDA",
-      "treat2": "TS_SVM",
-      "md": 0.0256,
-      "se": 0.0115,
-      "se_adj": 0.0154
-    },
-    {
-      "study": "Cho2017",
-      "treat1": "CSP_LDA",
-      "treat2": "TS_SVM",
-      "md": -0.0097,
-      "se": 0.0103,
-      "se_adj": 0.0151
-    },
-    {
-      "study": "Cho2017",
-      "treat1": "CSP_LDA",
-      "treat2": "MDM",
-      "md": 0.0332,
-      "se": 0.0098,
-      "se_adj": 0.0141
-    },
-    {
-      "study": "BNCI2014-001",
-      "treat1": "CSP_LDA",
-      "treat2": "MDM",
-      "md": 0.0169,
-      "se": 0.0315,
-      "se_adj": 0.0287
-    },
-    {
-      "study": "Cho2017",
-      "treat1": "MDM",
-      "treat2": "TS_SVM",
-      "md": -0.0429,
-      "se": 0.008,
-      "se_adj": 0.0119
-    },
-    {
-      "study": "Lee2019-MI",
-      "treat1": "MDM",
-      "treat2": "TS_SVM",
-      "md": -0.1211,
-      "se": 0.0245,
-      "se_adj": 0.0266
-    },
-    {
-      "study": "PhysionetMotorImagery",
-      "treat1": "CSP_LDA",
-      "treat2": "MDM",
-      "md": 0.1572,
-      "se": 0.0203,
-      "se_adj": 0.0292
-    },
-    {
-      "study": "Lee2019-MI",
-      "treat1": "CSP_LDA",
-      "treat2": "MDM",
-      "md": 0.0583,
-      "se": 0.0295,
-      "se_adj": 0.0385
-    },
-    {
-      "study": "BNCI2014-001",
-      "treat1": "MDM",
-      "treat2": "TS_SVM",
-      "md": -0.0271,
-      "se": 0.0248,
-      "se_adj": 0.0151
-    },
-    {
-      "study": "PhysionetMotorImagery",
-      "treat1": "MDM",
-      "treat2": "TS_SVM",
-      "md": -0.1316,
-      "se": 0.0153,
-      "se_adj": 0.018
-    }
-  ],
-  "estimates": {
-    "CSP_LDA": {
-      "md": null,
-      "lower": null,
-      "upper": null,
-      "z": null,
-      "pval": null
-    },
-    "MDM": {
-      "md": -0.0507,
-      "lower": -0.0949,
-      "upper": -0.0066,
-      "z": -2.6486,
-      "pval": 0.0293
-    },
-    "TS_SVM": {
-      "md": 0.0098,
-      "lower": -0.031,
-      "upper": 0.0506,
-      "z": 0.5558,
-      "pval": 0.5936
-    }
+  "p_scores": {
+    "CSP_LDA": 0.6411,
+    "MDM": 0.0101,
+    "TS_SVM": 0.8488
   },
   "league": {
     "md": {
@@ -195,12 +55,41 @@
         "MDM": 0.1031,
         "TS_SVM": null
       }
+    },
+    "z": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 2.6486,
+        "TS_SVM": -0.5558
+      },
+      "MDM": {
+        "CSP_LDA": -2.6486,
+        "MDM": null,
+        "TS_SVM": -3.2805
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.5558,
+        "MDM": 3.2805,
+        "TS_SVM": null
+      }
+    },
+    "pval": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.0293,
+        "TS_SVM": 0.5936
+      },
+      "MDM": {
+        "CSP_LDA": 0.0293,
+        "MDM": null,
+        "TS_SVM": 0.0112
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.5936,
+        "MDM": 0.0112,
+        "TS_SVM": null
+      }
     }
-  },
-  "p_scores": {
-    "CSP_LDA": 0.6411,
-    "MDM": 0.0101,
-    "TS_SVM": 0.8488
   },
   "heterogeneity": {
     "tau2": 0.0014,

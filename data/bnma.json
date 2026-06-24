@@ -1,28 +1,23 @@
 {
   "sucra": {
-    "CSP_LDA": 0.6673,
-    "MDM": 0.0204,
-    "TS_SVM": 0.8122
-  },
-  "convergence": {
-    "rhat_max": 1.0001,
-    "ess_bulk_min": 26580.7673,
-    "ess_tail_min": 30390.6732
+    "CSP_LDA": 0.666,
+    "MDM": 0.0203,
+    "TS_SVM": 0.8137
   },
   "league": {
     "md": {
       "CSP_LDA": {
         "CSP_LDA": null,
-        "MDM": -0.069,
-        "TS_SVM": 0.0103
+        "MDM": -0.0689,
+        "TS_SVM": 0.0107
       },
       "MDM": {
-        "CSP_LDA": 0.069,
+        "CSP_LDA": 0.0689,
         "MDM": null,
         "TS_SVM": 0.0795
       },
       "TS_SVM": {
-        "CSP_LDA": -0.0103,
+        "CSP_LDA": -0.0107,
         "MDM": -0.0795,
         "TS_SVM": null
       }
@@ -30,36 +25,46 @@
     "lower": {
       "CSP_LDA": {
         "CSP_LDA": null,
-        "MDM": -0.1289,
-        "TS_SVM": -0.0553
+        "MDM": -0.1285,
+        "TS_SVM": -0.0548
       },
       "MDM": {
-        "CSP_LDA": -0.0002,
+        "CSP_LDA": -0.0003,
         "MDM": null,
-        "TS_SVM": 0.0089
+        "TS_SVM": 0.0099
       },
       "TS_SVM": {
-        "CSP_LDA": -0.0754,
-        "MDM": -0.1377,
+        "CSP_LDA": -0.0755,
+        "MDM": -0.1375,
         "TS_SVM": null
       }
     },
     "upper": {
       "CSP_LDA": {
         "CSP_LDA": null,
-        "MDM": 0.0002,
-        "TS_SVM": 0.0754
+        "MDM": 0.0003,
+        "TS_SVM": 0.0755
       },
       "MDM": {
-        "CSP_LDA": 0.1289,
+        "CSP_LDA": 0.1285,
         "MDM": null,
-        "TS_SVM": 0.1377
+        "TS_SVM": 0.1375
       },
       "TS_SVM": {
-        "CSP_LDA": 0.0553,
-        "MDM": -0.0089,
+        "CSP_LDA": 0.0548,
+        "MDM": -0.0099,
         "TS_SVM": null
       }
     }
+  },
+  "heterogeneity": {
+    "sd": 0.0524,
+    "sd_lower": 0.0237,
+    "sd_upper": 0.112
+  },
+  "convergence": {
+    "rhat_max": 1.0002,
+    "ess_bulk_min": 24275.5553,
+    "ess_tail_min": 29002.5127
   }
 }
