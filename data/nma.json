@@ -1,0 +1,140 @@
+{
+  "p_scores": {
+    "CSP_LDA": 0.6411,
+    "MDM": 0.0101,
+    "TS_SVM": 0.8488
+  },
+  "league": {
+    "md": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.0507,
+        "TS_SVM": -0.0098
+      },
+      "MDM": {
+        "CSP_LDA": -0.0507,
+        "MDM": null,
+        "TS_SVM": -0.0606
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.0098,
+        "MDM": 0.0606,
+        "TS_SVM": null
+      }
+    },
+    "lower": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.0066,
+        "TS_SVM": -0.0506
+      },
+      "MDM": {
+        "CSP_LDA": -0.0949,
+        "MDM": null,
+        "TS_SVM": -0.1031
+      },
+      "TS_SVM": {
+        "CSP_LDA": -0.031,
+        "MDM": 0.018,
+        "TS_SVM": null
+      }
+    },
+    "upper": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.0949,
+        "TS_SVM": 0.031
+      },
+      "MDM": {
+        "CSP_LDA": -0.0066,
+        "MDM": null,
+        "TS_SVM": -0.018
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.0506,
+        "MDM": 0.1031,
+        "TS_SVM": null
+      }
+    },
+    "z": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 2.6486,
+        "TS_SVM": -0.5558
+      },
+      "MDM": {
+        "CSP_LDA": -2.6486,
+        "MDM": null,
+        "TS_SVM": -3.2805
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.5558,
+        "MDM": 3.2805,
+        "TS_SVM": null
+      }
+    },
+    "pval": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.0293,
+        "TS_SVM": 0.5936
+      },
+      "MDM": {
+        "CSP_LDA": 0.0293,
+        "MDM": null,
+        "TS_SVM": 0.0112
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.5936,
+        "MDM": 0.0112,
+        "TS_SVM": null
+      }
+    }
+  },
+  "heterogeneity": {
+    "tau2": 0.0014,
+    "tau": 0.038,
+    "i2": 0.9336,
+    "i2_lower": 0.8953,
+    "i2_upper": 0.9579,
+    "q": 120.5348,
+    "q_df": 8,
+    "q_pval": 2.5709e-22
+  },
+  "prediction": {
+    "lower": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": -0.0474,
+        "TS_SVM": -0.1065
+      },
+      "MDM": {
+        "CSP_LDA": -0.1489,
+        "MDM": null,
+        "TS_SVM": -0.158
+      },
+      "TS_SVM": {
+        "CSP_LDA": -0.0869,
+        "MDM": -0.0369,
+        "TS_SVM": null
+      }
+    },
+    "upper": {
+      "CSP_LDA": {
+        "CSP_LDA": null,
+        "MDM": 0.1489,
+        "TS_SVM": 0.0869
+      },
+      "MDM": {
+        "CSP_LDA": 0.0474,
+        "MDM": null,
+        "TS_SVM": 0.0369
+      },
+      "TS_SVM": {
+        "CSP_LDA": 0.1065,
+        "MDM": 0.158,
+        "TS_SVM": null
+      }
+    }
+  }
+}
